@@ -1,0 +1,88 @@
+
+
+#hero-component {
+
+  .wrapper {
+    background-color: $red-new;
+    color: $navy;
+    margin: 0;
+    padding: 60px 0;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    overflow: hidden;
+
+    @media only screen and (min-width: $screen-sm) {
+      padding: 100px 0;
+    }
+
+    @media only screen and (min-width: $screen-md) {
+      text-align: left;
+    }
+
+    .exclamation {
+      height: auto;
+      left: 20px;
+      position: absolute;
+      top: -70px;
+      width: 35px;
+      z-index: -1;
+
+      @media only screen and (min-width: $screen-sm) {
+        left: 10px;
+        top: -140px;
+        width: 65px;
+      }
+    }
+
+
+  }
+
+  h1 {
+      color: $navy;
+      font-family: "nexa black";
+      font-size: 38px;
+      margin: 0;
+      padding-left: 0;
+      text-align: center;
+      text-indent:0;
+
+      @media only screen and (min-width: $screen-sm) {
+        font-size:42px;
+        padding-left: 80px;
+        text-align: left;
+        text-indent:-40px;
+      }
+
+      @media only screen and (min-width: $screen-md) {
+        font-size: 58px;
+
+      }
+
+      @media only screen and (min-width: $screen-lg) {
+        font-size: 58px;
+      }
+
+    }
+
+    h2 {
+        color: $white;
+        font-family: "nexa";
+        font-size: 26px;
+        margin: 0;
+        text-align: center;
+
+        @media only screen and (min-width: $screen-sm) {
+          font-size: 32px;
+          text-align: left;
+          padding-left: 60px;
+        }
+
+        @media only screen and (min-width: $screen-lg) {
+          margin-top: 20px;
+          font-size: 34px;
+        }
+
+      }
+
+}
